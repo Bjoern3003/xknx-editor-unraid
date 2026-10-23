@@ -9,7 +9,7 @@
   <Privileged>false</Privileged>
   <Support>https://github.com/XKNX/xknx-editor/issues</Support>
   <Project>https://github.com/XKNX/xknx-editor</Project>
-  <Overview>Webbasierter KNX-Projekteditor</Overview>
+  <Overview>Web-based KNX project editor</Overview>
   <Category>HomeAutomation: Tools</Category>
   <WebUI>http://[IP]:[PORT:8080]/</WebUI>
   <ExtraParams/>
@@ -19,7 +19,7 @@
   <DonateLink/>
   <Requires/>
   <Config Name="Web UI Port" Target="8080" Default="8080" Mode="tcp" Type="Port" Display="always" Required="true" Mask="false">8080</Config>
-  <Config Name="Daten und Einstellungen" Target="/data" Default="/mnt/user/appdata/xknx-editor/data" Mode="rw" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/xknx-editor/data</Config>
-  <Config Name="KNX-Projekte" Target="/projects" Default="/mnt/user/appdata/xknx-editor/projects" Mode="rw" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/xknx-editor/projects</Config>
-  <Config Name="Web-Passwort" Target="XKNX_WEB_PASSWORD" Default="" Mode="" Type="Variable" Display="always" Required="true" Mask="true"/>
+  <Config Name="Data & Settings" Target="/data" Default="/mnt/user/appdata/xknx-editor/data" Mode="rw" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/xknx-editor/data</Config>
+  <Config Name="KNX-Projects" Target="/projects" Default="/mnt/user/appdata/xknx-editor/projects" Mode="rw" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/xknx-editor/projects</Config>
+  <Config Name="Web-Password" Target="XKNX_WEB_PASSWORD" Default="" Mode="" Type="Variable" Display="always" Required="true" Mask="true"/>
 </Container>

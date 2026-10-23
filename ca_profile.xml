@@ -2,6 +2,6 @@
   <Profile>
     Unraid Docker template for XKNX-Editor, a web-based KNX project editor for creating and managing KNX smart home projects. The template supports persistent storage for application data and KNX projects, configurable web access, and password protection. For application documentation and issues, visit the official XKNX-Editor project on GitHub.
   </Profile>
-  <Icon>https://github.com/Bjoern3003.png</Icon>
+  <Icon>https://raw.githubusercontent.com/Bjoern3003/xknx-editor-unraid/main/xknx-logo.png</Icon>
   <WebPage>https://github.com/Bjoern3003/xknx-editor-unraid</WebPage>
 </CommunityApplications>
